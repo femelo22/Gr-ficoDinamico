@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gráfico Javascript</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="">
+        <div id="inputContainer">
+            <div>
+                <label for="d1">Dominante</label>
+                <input type="number" name="" id="d1">
+            </div>
+            <div>
+                <label for="d2">Influente</label>
+                <input type="number" name="" id="d2">
+            </div>
+            <div>
+                <label for="d3">Editável</label>
+                <input type="number" name="" id="d3">
+            </div>
+            <div>
+                <label for="d4">Condescendente</label>
+                <input type="number" name="" id="d4">
+            </div>
+                <button onclick="showCanvasHideInput();geraGrafico();return false;">Gerar</button>
+        </div>
+    </form>
+    <div id="canvasDiv">
+        <canvas id="grafico" width="500" height="500"></canvas>
+    </div>
+    <script src="js/custom.js"></script>
+</body>
+</html>
